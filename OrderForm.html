@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Obrazac za kontakt</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <form name="Obrazac1" action="" method="POST" enctype="multipart/form-data" autocomplete="off">
+
+        <div>
+            <label for="ime">Ime i prezime</label><br>
+            <input id="ime" name="imeiprezime" type="text" size="30" placeholder="Vaše  ime i prezime">
+        </div><br>
+        <div>
+            <label for="mail">E-mail adresa</label><br>
+            <input id="mail" name="email" type="email" size="40" placeholder="Upišite valjanu email adresu">
+        </div><br>
+
+        <div>
+            <label for="broj">Kontakt broj telefona</label><br>
+            <input id="broj" name="brojtelefona" type="text" size="20" placeholder="Upišite valjani broj telefona">
+        </div><br>
+
+        <p>
+            <label for="obavijesti">Želim primati obavijesti o novim pjesmama koje je Branka naučila svirati</label>
+            <input id="obavijesti" name="newsletter" type="checkbox" value="true">
+        </p>
+
+        <p>
+            <label for="dokument">Priložite dokument</label>
+            <input id="dokument" name="dokument" type="file">
+        </p>
+        <p>
+            <input name="reset_btn" type="reset" value="Poništi obrazac">
+            <input name="submit btn" type="submit" value="Pošalji podatke">
+        </p>
+
+     </form>
+
+
+
+</body>
+</html>
