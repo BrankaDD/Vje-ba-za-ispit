@@ -1,0 +1,25 @@
+body {
+   
+   background-color: rgb(61, 33, 61);
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat
+       
+}
+footer{
+    background-color: rgb(36, 28, 28);
+}
+ul{
+    color:greenyellow
+}
+a {
+    color: rgb(182, 166, 21)
+}
+p{
+    border: 1px dotted;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    color:rgb(166, 156, 224);
+    width:fit-content;
+    padding: 20px;
+
+}
